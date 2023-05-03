@@ -1,6 +1,6 @@
 let docTitle = document.title;
 window.addEventListener('blur', () => {
-    document.title = 'Conecte-se'
+    document.title = 'Conecte-se';
 });
 window.addEventListener('focus', () => {
     document.title = docTitle;
@@ -25,8 +25,9 @@ button.addEventListener('click', (event) => {
         event.preventDefault();
 
     }
-})
+});
 
+// const form = document.querySelector('.form');
 const progressBar = document.querySelector('.progress');
 
 form.addEventListener('input', () => {
