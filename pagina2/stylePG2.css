@@ -20,6 +20,17 @@ main {
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
+    animation: move .5s linear;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 50%;
+    }
 }
 
 h1 {
