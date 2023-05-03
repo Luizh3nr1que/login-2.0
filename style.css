@@ -25,6 +25,17 @@ main {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    animation: move .5s linear;
+}
+
+@keyframes move {
+    from {
+        left: 35%;
+    }
+
+    to {
+        left: 50%;
+    }
 }
 
 .progress-bar {
