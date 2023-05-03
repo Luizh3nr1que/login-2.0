@@ -169,6 +169,7 @@ input:focus {
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .google:hover {
