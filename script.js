@@ -12,7 +12,7 @@ const button = document.querySelector('.btnEntrar');
 const input = document.querySelectorAll('input');
 
 
-button.addEventListener('click', () => {
+button.addEventListener('click', (event) => {
     let camposVazio = false;
     input.forEach(input => {
         if (input.value === '') {
@@ -22,5 +22,7 @@ button.addEventListener('click', () => {
 
     if (camposVazio) {
         erro.innerHTML = 'Preencha todos os campos';
+        event.preventDefault();
+
     }
 })
