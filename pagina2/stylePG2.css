@@ -25,7 +25,7 @@ main {
 
 @keyframes move {
     from {
-        left: 0;
+        left: 5%;
     }
 
     to {
