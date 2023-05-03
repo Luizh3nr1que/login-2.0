@@ -13,6 +13,6 @@ button.addEventListener('click', () => {
     });
 
     if (camposVazio) {
-        erro.innerHTML = 'Preencha todos os campos'
+        erro.innerHTML = 'Preencha todos os campos';
     }
 })

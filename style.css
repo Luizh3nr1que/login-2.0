@@ -68,6 +68,14 @@ input {
     position: relative;
 }
 
+input::placeholder {
+    color: rgb(112, 112, 112);
+}
+
+input:focus {
+    border: 3px solid rgb(106, 0, 167);
+}
+
 #email {
     margin-bottom: 20px;
 }
@@ -88,14 +96,6 @@ input {
     transform: translateY(-50%);
     font-size: 16px;
     color: #aaa;
-}
-
-input::placeholder {
-    color: rgb(112, 112, 112);
-}
-
-input:focus {
-    border: 3px solid rgb(106, 0, 167);
 }
 
 #EsqueciSenha {

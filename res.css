@@ -1,0 +1,48 @@
+@media screen and (max-width:800px) {
+    .escrita h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width:600px) {
+    main {
+        flex-direction: column;
+    }
+
+    .escrita h1 {
+        text-align: center;
+        font-size: 33px;
+    }
+
+    .escrita img {
+        width: 130px;
+    }
+}
+
+@media (max-width:360px) {
+    .escrita img {
+        margin-top: 100px;
+        width: 130px;
+    }
+
+    .outrosLogin {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:320px) {
+    .escrita img {
+        margin-top: 110px;
+        width: 130px;
+    }
+
+    input {
+        margin-left: 5%;
+    }
+
+    #EsqueciSenha {
+        margin-left: 7%;
+    }
+}
