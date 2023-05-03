@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+main {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.erro {
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: rgba(236, 81, 81, 0.836);
+}
+
+input {
+    background-color: rgb(12, 12, 12);
+    border: 3px solid rgb(126, 126, 126);
+    width: 300px;
+    padding: 15px;
+    outline: none;
+    border-radius: 7px;
+    transition: .5s ease-in-out;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px rgba(127, 82, 148, 0.658) inset !important;
+    border: 3px solid rgb(106, 0, 167);
+}
+
+input::placeholder {
+    color: rgb(112, 112, 112);
+}
+
+input:focus {
+    border: 3px solid rgb(106, 0, 167);
+}
+
+.btnEntrar {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(83, 3, 158);
+    border: none;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.btnEntrar:hover {
+    background-color: rgb(69, 2, 146);
+}
