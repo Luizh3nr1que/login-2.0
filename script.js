@@ -26,3 +26,11 @@ button.addEventListener('click', (event) => {
 
     }
 })
+
+const progressBar = document.querySelector('.progress');
+
+form.addEventListener('input', () => {
+    const inputs = Array.from(form.querySelectorAll('input[required]'));
+    const progress = inputs.filter(input => input.value !== '').length / inputs.length * 100;
+    progressBar.style.width = `${progress}%`;
+});
