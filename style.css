@@ -91,7 +91,7 @@ input {
 }
 
 input::placeholder {
-    color: white;
+    color: rgb(112, 112, 112);
 }
 
 input:focus {
@@ -131,7 +131,7 @@ input:focus {
 
 .semConta p {
     margin-bottom: 30px;
-    color: white;
+    color: rgb(173, 173, 173);
 }
 
 .semConta a {
@@ -151,7 +151,7 @@ input:focus {
 }
 
 .outrosLogin p {
-    color: white;
+    color: rgb(172, 172, 172);
 }
 
 .google {
