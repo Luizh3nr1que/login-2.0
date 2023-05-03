@@ -1,3 +1,11 @@
+let docTitle = document.title;
+window.addEventListener('blur', () => {
+    document.title = 'Conecte-se'
+});
+window.addEventListener('focus', () => {
+    document.title = docTitle;
+});
+
 const form = document.querySelector('.form');
 const erro = document.querySelector('.erro');
 const button = document.querySelector('.btnEntrar');
