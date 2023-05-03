@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 100%;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.escrita {
+    color: white;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.form-container {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+    height: 490px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.erro {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: red;
+}
+
+input {
+    background-color: rgb(12, 12, 12);
+    border: 3px solid rgb(126, 126, 126);
+    width: 350px;
+    padding: 15px;
+    outline: none;
+    border-radius: 7px;
+    transition: .5s ease-in-out;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+.icon {
+    position: absolute;
+    top: 33%;
+    left: 52%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #aaa;
+}
+
+.icon2 {
+    position: absolute;
+    top: 12%;
+    left: 52%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #aaa;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus {
+    border: 3px solid rgb(106, 0, 167);
+}
+
+#EsqueciSenha {
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+#EsqueciSenha:hover {
+    color: rgb(168, 88, 243);
+}
+
+.btnEntrar {
+    background-color: rgb(83, 3, 158);
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.btnEntrar:hover {
+    background-color: rgb(75, 3, 158);
+}
+
+.semConta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.semConta p {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.semConta a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+.semConta a:hover {
+    color: rgb(168, 88, 243);
+}
+
+.outrosLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outrosLogin p {
+    color: white;
+}
+
+.google {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    margin-left: 20px;
+    height: 50px;
+    width: 230px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.google:hover {
+    background-color: rgb(75, 3, 158);
+}
+
+.google img {
+    margin-right: 7px;
+    width: 22px;
+}
