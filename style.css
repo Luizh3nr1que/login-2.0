@@ -105,6 +105,13 @@ input {
     position: relative;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px rgba(127, 82, 148, 0.658) inset !important;
+    border: 3px solid rgb(106, 0, 167);
+}
+
 input::placeholder {
     color: rgb(112, 112, 112);
 }
