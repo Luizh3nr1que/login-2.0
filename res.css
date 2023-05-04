@@ -54,4 +54,8 @@
     #EsqueciSenha {
         margin-left: 7%;
     }
+
+    .form-container {
+        padding: 150px;
+    }
 }
