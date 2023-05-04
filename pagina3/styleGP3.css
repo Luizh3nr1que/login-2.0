@@ -186,37 +186,6 @@ input:focus {
     border: 3px solid rgb(106, 0, 167);
 }
 
-
-
-.icon {
-    position: absolute;
-    top: 33%;
-    left: 52%;
-    transform: translateY(-50%);
-    font-size: 16px;
-    color: #aaa;
-}
-
-.icon2 {
-    position: absolute;
-    top: 12%;
-    left: 52%;
-    transform: translateY(-50%);
-    font-size: 16px;
-    color: #aaa;
-}
-
-#EsqueciSenha {
-    margin-bottom: 30px;
-    text-decoration: none;
-    font-size: 15px;
-    color: blueviolet;
-}
-
-#EsqueciSenha:hover {
-    color: rgb(168, 88, 243);
-}
-
 .btnEntrar {
     background-color: rgb(83, 3, 158);
     border: none;
@@ -229,62 +198,4 @@ input:focus {
 
 .btnEntrar:hover {
     background-color: rgb(69, 2, 146);
-}
-
-.semConta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.semConta p {
-    margin-bottom: 30px;
-    color: rgb(173, 173, 173);
-}
-
-.semConta a {
-    text-decoration: none;
-    font-size: 15px;
-    color: blueviolet;
-}
-
-.semConta a:hover {
-    color: rgb(168, 88, 243);
-}
-
-.outrosLogin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.outrosLogin p {
-    color: rgb(172, 172, 172);
-}
-
-.google {
-    display: flex;
-    background-color: rgb(34, 34, 34);
-    border: none;
-    margin-left: 20px;
-    height: 50px;
-    width: 230px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.google:hover {
-    background-color: rgb(75, 3, 158);
-}
-
-.google img {
-    margin-right: 7px;
-    width: 22px;
 }

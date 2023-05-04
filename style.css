@@ -56,9 +56,9 @@ main {
 }
 
 .escrita {
-    color: white;
+    color: rgb(199, 199, 199);
     margin-right: 50px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .barra {
@@ -171,7 +171,7 @@ input:focus {
     background-color: rgb(83, 3, 158);
     border: none;
     height: 50px;
-    color: white;
+    color: rgb(216, 216, 216);
     font-weight: bold;
     margin-bottom: 30px;
     cursor: pointer;
@@ -219,7 +219,7 @@ input:focus {
     margin-left: 20px;
     height: 50px;
     width: 230px;
-    color: white;
+    color: rgb(196, 196, 196);
     font-weight: bold;
     font-size: 20px;
     align-items: center;
