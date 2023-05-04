@@ -41,7 +41,3 @@ function openGoogleSignIn() {
     googleSignInWindow.focus();
 }
 
-function handleGoogleSignIn(response) {
-    console.log(response);
-    // Faça o que desejar com o token de acesso do usuário, como enviar para seu servidor
-}
