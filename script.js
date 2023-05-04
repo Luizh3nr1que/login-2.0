@@ -35,3 +35,13 @@ form.addEventListener('input', () => {
     const progress = inputs.filter(input => input.value !== '').length / inputs.length * 100;
     progressBar.style.width = `${progress}%`;
 });
+
+function openGoogleSignIn() {
+    var googleSignInWindow = window.open('https://accounts.google.com/o/oauth2/auth?client_id=SEU_CLIENT_ID&redirect_uri=SUA_REDIRECT_URI&response_type=token&scope=email%20profile', '_blank', 'width=500,height=600');
+    googleSignInWindow.focus();
+}
+
+function handleGoogleSignIn(response) {
+    console.log(response);
+    // Faça o que desejar com o token de acesso do usuário, como enviar para seu servidor
+}
