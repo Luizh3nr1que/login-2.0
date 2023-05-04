@@ -11,6 +11,9 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="res.css">
 
@@ -24,36 +27,40 @@
     </div>
 
     <main>
-        <div class="escrita">
-            <img class="logo" src="img/logo.png" draggable="false">
-            <h1>Faça seu login <br>
-                na plataforma<span class="barra">|</span> </h1>
-        </div>
 
         <div class="form-container">
+            <h2>Crie sua conta</h2>
             <form class="form">
-                <input type="email" id="email" placeholder="Email" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
 
-                <input type="password" name="pass" id="pass" minlength="5" placeholder="Senha" required>
+                <input type="text" placeholder="Seu nome" required>
+
+                <input type="password" name="pass" id="pass" minlength="5" placeholder="Sua senha" required>
                 <div class="erro"></div>
 
-                <a id="EsqueciSenha" href="./pagina2/index.html">Esqueci minha senha</a>
+                <p>Ao se registrar, você aceita nossos <a href="#">termos de uso</a> e a nossa <a href="#">política de
+                        privacidade.</a>
+                </p>
 
-                <button class="btnEntrar" type="submit">ENTRAR</button>
+                <button class="btnEntrar" type="submit">CADASTRAR</button>
 
-                <div class="semConta">
-                    <p>Não tem uma conta? <a href="pagina3/index.html">Registre-se</a></p>
-                </div>
 
-                <div class="outrosLogin">
-                    <p>Ou entre com </p> <a href="#" class="google"> <img src="https://freesvg.org/img/1534129544.png"
-                            draggable="false">
-                        Google</a>
-                </div>
             </form>
 
 
         </div>
+
+        <div class="escrita">
+            <img class="logo" src="../img/logo.png" draggable="false">
+            <h1>Registre-se<span class="barra">|</span>
+            </h1>
+            <div class="voltar">
+                <a href="../index.html"> <span class="material-symbols-outlined">
+                        arrow_back
+                    </span> Voltar para o login</a>
+            </div>
+        </div>
+
     </main>
 
 
