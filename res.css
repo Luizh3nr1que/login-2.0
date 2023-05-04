@@ -1,9 +1,14 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:913px) {
+    .escrita h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:759px) {
     .escrita h1 {
         font-size: 30px;
     }
 }
-
 
 @media (max-width:600px) {
     main {
