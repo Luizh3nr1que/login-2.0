@@ -1,0 +1,45 @@
+@media (max-width:600px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    .escrita h1 {
+        text-align: center;
+        font-size: 33px;
+    }
+
+
+    .escrita img {
+        margin-bottom: 10px;
+        width: 130px;
+    }
+
+    .voltar {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:582px) {
+    .escrita h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:450px) {
+    .form-container {
+        padding: 100px;
+    }
+
+}
+
+@media (max-width:354px) {
+    .form-container {
+        padding: 150px;
+    }
+
+    .escrita h1 {
+        font-size: 15px;
+    }
+
+}
